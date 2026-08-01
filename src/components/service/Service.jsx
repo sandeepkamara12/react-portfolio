@@ -2,7 +2,9 @@ import React from 'react'
 
 const Service = () => {
   return (
-    <div>Service</div>
+     <section className='lg:h-screen bg-dark py-5 lg:py-0'>
+     dsjg
+    </section>
   )
 }
 

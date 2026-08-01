@@ -9,6 +9,7 @@ import Certification from './components/certification/Certification';
 import Technology from './components/technology/Technology';
 import Contact from './components/contact/Contact';
 import Footer from './components/common/Footer';
+import Demo from './components/Demo';
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
     <>
     {/* <button className="btn-primary">Explore Portfolio</button> */}
      <Header />
-     {/* <Banner />
-     <Service />
+     <Banner />
+     {/* <Demo /> */}
+     {/* <Service />
      <Portfolio />
      <About />
      <Certification />

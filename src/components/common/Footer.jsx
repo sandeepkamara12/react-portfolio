@@ -2,11 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='wrapper pt-12 xl:py-12 bg-black left-0 right-0 bottom-0 absolute text-center text-white'>
+    <footer className='wrapper pt-12 xl:py-12 bg-black text-center text-white'>
       <div className='px-6 2xl:py-12'>
-        <div class="animated-heart">
+        <div className="animated-heart">
           <input id="toggle-heart" type="checkbox" />
-          <label for="toggle-heart" aria-label="like">❤</label>
+          <label htmlFor="toggle-heart" aria-label="like">❤</label>
         </div>
         
         <p className="mb-0">Proudly made by</p>
