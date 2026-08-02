@@ -6,7 +6,7 @@ const Banner = () => {
     <section className="lg:h-screen bg-black py-5 lg:py-0">
       <div className="custom-container h-full grid grid-cols-2 items-center">
         <div className="text-white">
-          <h1>Be <span className="text-primary">Involve!</span> </h1>
+          <h1 className="heading">Be <span className="text-primary">Involve!</span> </h1>
           <p className="leading-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ipsum, consequuntur nemo, eum delectus modi consequatur, quibusdam repudiandae architecto obcaecati explicabo recusandae impedit nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ipsum, consequuntur nemo, eum delectus modi consequatur, quibusdam repudiandae architecto obcaecati explicabo recusandae impedit nesciunt.</p>
           <div className="mt-6 lg:mt-12 flex flex-wrap items-center gap-6">
             <a href="#" className="btn-outline-white">Be Involve!</a>

@@ -4,7 +4,8 @@
 /* VARIABLES / THEME */
 @theme {
   --color-primary: #ff3f34;
-  --color-secondary: #9333ea;
+  --color-secondary: #34495e;
+  --color-dark-gray:#0d1b48;
   --font-poppins: "Poppins", sans-serif;
   --spacing-100: 100px;
 }
@@ -15,11 +16,11 @@
     font-family: var(--font-poppins);
     @apply text-black font-15;
   }
-
+.heading,
   h1 {
-    font-size: 40px;
-    line-height: 48px;
-    @apply uppercase mb-7 font-semibold;
+    /* font-size: 40px;
+    line-height: 48px; */
+    @apply  font-40 uppercase mb-7 font-semibold text-white;
   }
   p {
     @apply font-15;
@@ -37,9 +38,7 @@
     @apply border inline-block capitalize text-white py-2.5 px-5 text-center font-normal cursor-pointer rounded-xs tracking-wider custom-shadow transition-all duration-200 ease-in-out hover:border-white hover:text-black! hover:custom-hover-shadow;
   }
   .btn-outline-white {
-    background: var(--color-transparent);
-    border-color: var(--color-white);
-    @apply border inline-block capitalize text-white py-2.5 px-5 text-center font-normal cursor-pointer rounded-xs tracking-wider custom-shadow transition-all duration-200 ease-in-out hover:border-white hover:text-black! hover:custom-hover-shadow;
+    @apply bg-transparent border border-white inline-block capitalize text-white py-2.5 px-5 text-center font-normal cursor-pointer rounded-xs tracking-wider transition-all duration-200 ease-in-out hover:border-white hover:text-black! hover:custom-hover-shadow;
   }
 
   .input-field {
@@ -52,11 +51,18 @@
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
+  .service-card {
+	@apply text-base bg-dark-gray/20 rounded-xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 ease-in-out;
+  }
 }
 
 /* CUSTOM UTILITIES */
 @utility font-15 {
   font-size: 15px;
+}
+@utility font-40 {
+  	font-size: 40px;
+	line-height: 48px;
 }
 @utility custom-shadow {
   box-shadow:inset 0 0 0 0 #ff3f34;

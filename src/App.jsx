@@ -19,8 +19,8 @@ function App() {
      <Header />
      <Banner />
      {/* <Demo /> */}
-     {/* <Service />
-     <Portfolio />
+   <Service />
+      {/*  <Portfolio />
      <About />
      <Certification />
      <Technology />
